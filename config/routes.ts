@@ -38,6 +38,24 @@
     ],
   },
   {
+    path: '/k8s',
+    name: 'Kubernetes',
+    icon: 'crown',
+    access: 'canAdmin',
+    component: './k8s/Index',
+    routes: [
+      {
+        path: '/k8s/index',
+        name: '集群',
+        icon: 'smile',
+        component: './k8s/Index',
+      },
+      {
+        component: './404',
+      },
+    ],
+  },
+  {
     name: 'list.table-list',
     icon: 'table',
     path: '/list',
