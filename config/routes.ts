@@ -28,7 +28,19 @@
     routes: [
       {
         path: '/admin/sub-page',
-        name: 'sub-page',
+        name: 'account',
+        icon: 'smile',
+        component: './Welcome',
+      },
+      {
+        path: '/admin/sub-page',
+        name: 'role',
+        icon: 'smile',
+        component: './Welcome',
+      },
+      {
+        path: '/admin/sub-page',
+        name: 'user-group',
         icon: 'smile',
         component: './Welcome',
       },
